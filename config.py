@@ -8,11 +8,11 @@ class Config:
     DEVELOPERS = [
         {
             "nombre": "Carlos juan",
-            "apellido": "Santana"
+            "apellido": "Santana 1"
         },
         {
-            "nombre": "James",
-            "apellido": "Hetfield"
+            "nombre": "James  ",
+            "apellido": "Hetfield  112"
         }
     ]
     VERSION = "1.0.0"
