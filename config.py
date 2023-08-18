@@ -7,7 +7,7 @@ class Config:
     DESCRIPTION = "Aplicación para practicar routing en Flask"
     DEVELOPERS = [
         {
-            "nombre": "Carlos",
+            "nombre": "Carlos juan",
             "apellido": "Santana"
         },
         {

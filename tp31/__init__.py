@@ -8,7 +8,8 @@ def init_app():
     app = Flask(__name__, static_folder = Config.STATIC_FOLDER, template_folder = Config.TEMPLATE_FOLDER)
 
     app.config.from_object(Config)
-
+    ####modificaciones
+    ##recontramodificado
     # Ejercicio 1
     @app.route('/')
     def welcome():
@@ -17,7 +18,7 @@ def init_app():
     # Ejercicio 2
     @app.route('/info')
     def mensaje():
-        return f"Bienvenido a Programación 2 - {app.config['APP_NAME']}"
+        return f"Bienvenido a Programación 2 esta es una prueba - {app.config['APP_NAME']}"
     
     # Ejercicio 3
     @app.route('/about')
