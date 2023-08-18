@@ -10,6 +10,8 @@ def init_app():
     app.config.from_object(Config)
     ####modificaciones
     ##recontramodificado
+    #cambiar fehca a 18 de agosto de 2023 11:06:00
+    #cambiar fehca a 18 de agosto de 2023 11:07:00
     # Ejercicio 1
     @app.route('/')
     def welcome():
